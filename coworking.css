@@ -1,0 +1,12 @@
+.workspace {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .workspace div {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  

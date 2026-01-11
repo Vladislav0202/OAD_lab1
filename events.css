@@ -1,0 +1,11 @@
+.schedule {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .schedule div {
+    background: white;
+    padding: 15px;
+    border-left: 5px solid #5c3d2e;
+  }
+  
