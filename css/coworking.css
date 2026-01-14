@@ -1,12 +1,24 @@
-.workspace {
+body {
+    background:
+    linear-gradient(rgba(153, 153, 153, 0.6), rgba(153, 153, 153, 0.6)),
+      url("../img/coworking.jpg") no-repeat center center / cover;
+  }
+  
+  .workspace {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 25px;
+    margin-top: 40px;
   }
   
   .workspace div {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
+    background: rgba(0,0,0,0.7);
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .workspace div:hover {
+    transform: scale(1.05);
   }
   
